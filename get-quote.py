@@ -1,5 +1,8 @@
 def main():
   print("Keep it logically awesome.")
+  
+   f = open("quotes.txt", "a")
+   f.write("Have a good day!")
 
   f = open("quotes.txt")
   quotes = f.read()
