@@ -9,5 +9,5 @@ def main():
   rnd = random.randint(0, last)
   print(quotes[13])
   
-if __name__ == "__first__":
- first()  
+if __name__ == "__main__":
+ main()  
